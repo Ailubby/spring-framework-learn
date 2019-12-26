@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: zhe.sun.test
+Automatic-Module-Name: zhe.sun.test
+Implementation-Version: 5.0.16.BUILD-SNAPSHOT
+Created-By: 1.8.0_51 (Oracle Corporation)
+
