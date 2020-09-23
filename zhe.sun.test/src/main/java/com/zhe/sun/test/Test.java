@@ -15,7 +15,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		ApplicationContext annotationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-		System.out.println(annotationContext.getBean(Man.class));
+		Man man = annotationContext.getBean(Man.class);
+		man.print();
 
 
 		/*ApplicationContext xmlContext = new ClassPathXmlApplicationContext("classpath:application.xml");

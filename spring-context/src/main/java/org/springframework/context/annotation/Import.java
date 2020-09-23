@@ -28,7 +28,7 @@ import java.lang.annotation.Target;
  * <p>Provides functionality equivalent to the {@code <import/>} element in Spring XML.
  * Allows for importing {@code @Configuration} classes, {@link ImportSelector} and
  * {@link ImportBeanDefinitionRegistrar} implementations, as well as regular component
- * classes (as of 4.2; analogous to {@link AnnotationConfigApplicationContext#register}).
+ * classes (as of 4.2; analogous to(相当于) {@link AnnotationConfigApplicationContext#register}).
  *
  * <p>{@code @Bean} definitions declared in imported {@code @Configuration} classes should be
  * accessed by using {@link org.springframework.beans.factory.annotation.Autowired @Autowired}
